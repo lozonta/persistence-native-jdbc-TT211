@@ -16,8 +16,8 @@ import $import;
 #end
 import java.sql.SQLException;
 
-import org.demo.dao.commons.DAOProvider;
-import org.demo.dao.commons.DAOTestUtil;
+import ${ROOT_PKG}.dao.commons.DAOProvider;
+import ${ROOT_PKG}.dao.commons.DAOTestUtil;
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
