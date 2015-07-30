@@ -8,6 +8,10 @@
 ##--------------------------------------------------------------------------------------------------------
 package ${target.javaPackageFromFolder($SRC)};
 
+#foreach( $import in $java.imports($jdbc.attributesForPrimaryKey) )
+import $import;
+#end
+
 import ${ENTITY_PKG}.${entity.name};
 
 /**
